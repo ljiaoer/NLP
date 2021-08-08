@@ -14,7 +14,7 @@ import pyLDAvis
 
 
 # 读取数据
-papers = pd.read_csv("G:/SystemMine/ML/DataScience/ML/lda/data/papers.csv")
+papers = pd.read_csv("paper.csv")
 
 #删选有数据的列
 paper = papers.iloc[:,0:7]
